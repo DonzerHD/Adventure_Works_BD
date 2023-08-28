@@ -1,0 +1,15 @@
+sa
+Denain59220
+
+commande lancer : 
+docker restart sql_server
+
+commande au cas ou :
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Denain59220,' -p 1433:1433 --name sql_server -d mcr.microsoft.com/mssql/server
+
+microsft sql server
+dbeaver 
+host
+localhost 
+1433
+master
